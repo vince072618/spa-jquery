@@ -1,3 +1,104 @@
-.cliff-h1{
-    color: #99ccff;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://preview.redd.it/4b1qql7y0hg71.jpg?width=1080&crop=smart&auto=webp&s=07f7bb4c1f00137611bab3aa5e2e5af2c864ad72');
+    background-size: cover; 
+    background-position: center;
+    height: 100vh;
+    margin: 0; /* Kuhaon ang default nga margin */
+    display: flex;
+    justify-content: left;
+    align-items: top;
+    margin-right: 20px;
+   
+}
+header {
+    background-color: violet; /* Dark gray background */
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-weight: 900;
+}
+nav {
+   background-image: url('Profile picture nimo roy');
+   background-size: 50%;
+   padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+    border-radius: 5px;
+    background-color: #555;
+}
+
+section {
+    padding: 20px;
+}
+
+
+@keyframes fadeInBackgroundColor {
+    from {
+        background-color: #eee;
+    }
+    to {
+        background-color: #333; 
+    }
+}
+
+
+#home {
+    animation: fadeInBackgroundColor 3s ease-in-out;
+}
+
+
+#about {
+    animation: fadeInBackgroundColor 3s ease-in-out;
+}
+
+section {
+    padding: 20px;
+}
+.profile-image {
+    width: 100px; 
+    height: 100px; 
+    border-radius: 50%; /* I-sakto ang border-radius para mahimong circle */
+    overflow: hidden; /* Para dili mag overflow ang rounded shape */
+    margin-bottom: 20px;
+}
+
+.profile-image img {
+    width: 100%; 
+    height: auto; 
+}
+h2{
+    font-weight: 900;
+    color: red;
+}
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(97, 14, 69);
+    font-weight: 900;
+}
+h4{
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(140, 255, 0);
+    text-align: center;
+}
+h1{
+    font-weight: 900;
+   font-family: 'Times New Roman', Times, serif;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-style: oblique;
 }
